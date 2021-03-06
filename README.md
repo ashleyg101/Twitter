@@ -25,3 +25,5 @@ Here's a walkthrough of implemented user stories:
 
 <img src='http://g.recordit.co/Wevab4XNZJ.gif' />
 
+<img src='https://recordit.co/tUDbSjIB2P />
+
