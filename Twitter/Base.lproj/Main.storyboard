@@ -134,14 +134,14 @@
                                             <nil key="highlightedColor"/>
                                         </label>
                                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Jw0-Wm-GDN" userLabel="Fave Button">
-                                            <rect key="frame" x="354" y="99" width="30" height="30"/>
+                                            <rect key="frame" x="354" y="101" width="30" height="30"/>
                                             <state key="normal" image="favor-icon"/>
                                             <connections>
                                                 <action selector="favoriteTweet:" destination="N4t-Ht-Zyx" eventType="touchUpInside" id="1u5-Q8-M4r"/>
                                             </connections>
                                         </button>
                                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Auh-x4-ji0" userLabel="Retweet Button">
-                                            <rect key="frame" x="314" y="99" width="30" height="30"/>
+                                            <rect key="frame" x="314" y="101" width="30" height="30"/>
                                             <state key="normal" image="retweet-icon"/>
                                             <connections>
                                                 <action selector="retweet:" destination="N4t-Ht-Zyx" eventType="touchUpInside" id="c6r-75-Jd8"/>
@@ -154,7 +154,7 @@
                                         <constraint firstItem="luI-AT-4F7" firstAttribute="trailing" secondItem="sXs-Pg-fBt" secondAttribute="trailingMargin" id="Qp2-7z-4SO"/>
                                         <constraint firstAttribute="trailingMargin" secondItem="Jw0-Wm-GDN" secondAttribute="trailing" constant="10" id="UzO-38-5jk"/>
                                         <constraint firstItem="luI-AT-4F7" firstAttribute="top" secondItem="yZm-Gq-hm3" secondAttribute="bottom" constant="8" id="YUC-by-PCY"/>
-                                        <constraint firstItem="Auh-x4-ji0" firstAttribute="top" secondItem="sXs-Pg-fBt" secondAttribute="topMargin" constant="88" id="Zbc-a5-Gvg"/>
+                                        <constraint firstItem="Auh-x4-ji0" firstAttribute="top" secondItem="luI-AT-4F7" secondAttribute="bottomMargin" constant="10" id="Zbc-a5-Gvg"/>
                                         <constraint firstItem="l0J-yW-vn2" firstAttribute="top" secondItem="yZm-Gq-hm3" secondAttribute="top" id="fPS-HY-lgf"/>
                                         <constraint firstItem="Auh-x4-ji0" firstAttribute="top" secondItem="Jw0-Wm-GDN" secondAttribute="top" id="gme-85-dSr"/>
                                         <constraint firstItem="yZm-Gq-hm3" firstAttribute="leading" secondItem="l0J-yW-vn2" secondAttribute="trailing" constant="8" id="jUU-fO-Vtf"/>
