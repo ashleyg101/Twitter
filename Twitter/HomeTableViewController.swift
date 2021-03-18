@@ -24,7 +24,7 @@ class HomeTableViewController: UITableViewController {
         tableView.estimatedRowHeight = 150
     }
     
-    override func viewDidAppear(_ animated: Bool) {
+    override func viewDidAppear(_ animated: Bool) {     // new tweet should appear w/o pull to refresh
         super.viewDidAppear(animated)
         self.loadTweets()
     }
